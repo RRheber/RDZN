@@ -1,0 +1,60 @@
+/*General*/
+
+/*Declaración de Variables globales*/
+:root {
+  --gray-power:  #3b3b3b;
+  --white: #ffffff;
+  --black: #000000;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+.titulo{
+    color: var(--white);
+    background: var(--black);
+}
+
+nav{
+    background: var(--gray-power);
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border-bottom: 1px solid var(--Very-light-pink);
+    
+}
+
+nav .nav-information {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-information li{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 60px;
+}
+.logo{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    
+}
+.nav-information{
+    padding: 0 24px;
+}
+.nav-information ul a{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 50px;   
+}
